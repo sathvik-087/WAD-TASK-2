@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    animation: colorChange 2s infinite;
+}
+@keyframes colorChange {
+    0% {
+        color: black;
+    }
+    50% {
+        color: red;
+    }
+    100% {
+        color: black;
+    }
+}
+
+h2 {
+    color: green;
+    font-size: 28px;
+}
+
+h3 {
+    color: blue;
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+

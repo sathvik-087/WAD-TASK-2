@@ -1,0 +1,29 @@
+@keyframes heartbeat {
+    0% {
+        transform: scale(1);
+        background-color: black;
+    }
+    50% {
+        transform: scale(1.2);
+        background-color: white;
+    }
+    100% {
+        transform: scale(1);
+        background-color: black;
+    }
+}
+
+body {
+    animation: heartbeat 2s infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black; /* Initial background color */
+}
+
+img {
+    width: 200px; /* Adjust the size as needed */
+    height: auto;
+}
